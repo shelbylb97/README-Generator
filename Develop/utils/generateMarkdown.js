@@ -18,7 +18,7 @@ function generateMarkdown(data) {
   # ${data.title}
 
   ## ${data.name}
-  ### ${data.git}
+  ## Github: ${data.git}
 
   ${data.screenshot}
 
@@ -27,8 +27,8 @@ function generateMarkdown(data) {
   ${data.learn}
     
   ### Links 
-   ${data.link1}
-   ${data.link2}
+  #### ${data.link1}
+  #### ${data.link2}
 
 `;
 }
